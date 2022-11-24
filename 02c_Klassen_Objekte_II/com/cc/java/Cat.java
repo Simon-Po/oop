@@ -47,6 +47,7 @@ public class Cat {
     public void setAge(int age) {
         this.age = age;
     }    
+    
     private String checkEscelationLevel(){
         this.counter++;
         switch (this.counter) {
