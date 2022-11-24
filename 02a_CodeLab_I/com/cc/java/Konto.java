@@ -2,7 +2,15 @@ package com.cc.java;
 
 public class Konto {
 
-    private int kontostand = 10_000;
+    private int kontostand;
+
+    public Konto(int kStand) {
+      this.kontostand = kStand;
+    }
+
+    public Konto(){
+        this.kontostand = 10_000;
+    }
 
     public int getKontostand() {
         return kontostand;
@@ -12,3 +20,4 @@ public class Konto {
         this.kontostand = kontostand;
     }
 }
+
