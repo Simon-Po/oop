@@ -4,7 +4,7 @@ public class App {
     
     public static void main(String[] args) {
     
-        Cat cat = new Cat("Grizabella","white",29,true);
+        Cat cat = new Cat("Grizabella","white",29);
         output(cat.getStringAttributes("#name"));
         output(cat.getStringAttributes("#color"));
         output(cat.getAge());
@@ -14,7 +14,7 @@ public class App {
     
         output("------------------------");
 
-        Cat cat1 = new Cat("Alonzo", "grey", 35, false);
+        TomCat cat1 = new TomCat("Alonzo", "grey", 35);
         output(cat1.getStringAttributes("#name"));
         output(cat1.getStringAttributes("#color"));
         output(cat1.getAge());
