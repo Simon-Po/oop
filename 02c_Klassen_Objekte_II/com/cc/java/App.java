@@ -4,20 +4,20 @@ public class App {
     
     public static void main(String[] args) {
     
-        Cat cat = new Cat("Grizabella","white",29);
+        Cat cat = new Cat("Grizabella","white",29,true);
         output(cat.getStringAttributes("#name"));
         output(cat.getStringAttributes("#color"));
-        output(String.valueOf(cat.getAge()));
+        output(cat.getAge());
     
         output("------------------------");
 
-       Cat cat1 = new Cat("Alonzo", "grey", 35);
+       Cat cat1 = new Cat("Alonzo", "grey", 35,false);
 
        cat1.setFurColor("striped");
 
-       output(cat1.getStringAttributes("#name"));
-       output(cat1.getStringAttributes("#color"));
-        output(String.valueOf(cat1.getAge()));
+        output(cat1.getStringAttributes("#name"));
+        output(cat1.getStringAttributes("#color"));
+        output(cat1.getAge());
 
     }
 

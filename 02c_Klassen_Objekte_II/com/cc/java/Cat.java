@@ -5,13 +5,16 @@ public class Cat {
    private String name;
    private String furColor;
    private int age;
+   private boolean isFemale;
 
-    public Cat(String name, String furColor, int age) {
-        this.name = name;
-        this.furColor = furColor;
-        this.age = age;
-	}
 
+
+    public Cat(String name, String furColor, int age, boolean isFemale) {
+    this.name = name;
+    this.furColor = furColor;
+    this.age = age;
+    this.isFemale = isFemale;
+}
     public String getStringAttributes(String flag) {
         switch (flag) {
             case "#name":
@@ -40,22 +43,15 @@ public class Cat {
         this.furColor = furColor;
     }
 
-    public int getAge() {
-        return age;
-    }
+    public String getAge() {
 
+        if (isFemale) {
+            return "!#NO!!#";
+        } else {
+            return String.valueOf(age);
+        }
+    }
     public void setAge(int age) {
         this.age = age;
-    }
-
-
-
-    
-
-
-
-    
-
-
-    
+    }    
 }
