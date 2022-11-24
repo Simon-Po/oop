@@ -5,7 +5,8 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "com.cc.java.App",
-            "projectName": "oop_13c48e20"
+            "projectName": "oop_13c48e20",
+            "console": "internalConsole"
         },
         {
             "type": "java",

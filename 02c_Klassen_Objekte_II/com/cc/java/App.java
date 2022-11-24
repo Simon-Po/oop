@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) {
     
         Cat cat = new Cat("Grizabella","white",29);
-        output(cat.getName());
-        output(cat.getFurColor());
+        output(cat.getStringAttributes("#name"));
+        output(cat.getStringAttributes("#color"));
         output(String.valueOf(cat.getAge()));
     
         output("------------------------");
@@ -15,8 +15,8 @@ public class App {
 
        cat1.setFurColor("striped");
 
-        output(cat1.getName());
-        output(cat1.getFurColor());
+       output(cat1.getStringAttributes("#name"));
+       output(cat1.getStringAttributes("#color"));
         output(String.valueOf(cat1.getAge()));
 
     }

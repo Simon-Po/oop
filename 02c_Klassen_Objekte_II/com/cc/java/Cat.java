@@ -12,6 +12,18 @@ public class Cat {
         this.age = age;
 	}
 
+    public String getStringAttributes(String flag) {
+        switch (flag) {
+            case "#name":
+                return name;
+            case "#color":
+                return furColor;
+            default:
+                return "ERROR: Could not find value";
+        }
+
+      
+    }
     public String getName() {
         return name;
     }
