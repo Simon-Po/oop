@@ -7,9 +7,9 @@ public class Level_2 extends Level_3{
 
     protected String play(){
      
-      if (points < this.levelPoints) {
-          points++;
-          return "Yahoo, " + levelName + " here, and I have " + points + " points!";
+      if (super.getPoints() < this.levelPoints) {
+          super.setPoints(super.getPoints() + 1);
+          return "Yahoo, " + levelName + " here, and I have " + super.getPoints() + " points!";
       } else {
           return super.play();
       }

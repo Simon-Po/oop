@@ -4,7 +4,7 @@ public class App {
     
         Player player = new Player();
 
-        for (int i = 0; i < 12; i++) {
+        while (player.getPoints() <= 12) {
             ausgabe(player.play());  
         }
 
