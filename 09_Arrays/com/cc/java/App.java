@@ -34,10 +34,10 @@ public class App {
 		
 		// String [][] strMdArr = {{"Max","Mustermann"},{"Maxine","Musterfrau"}};
 		
-		// {{0,2,1},{1,0,0}}  x|y|z
+		// // {{0,2,1},{1,0,0}}  x|y|z
 		
-		// output(strMdArr[0][0]);
-		// output(strMdArr[1][1]);
+		// // output(strMdArr[0][0]);
+		// // output(strMdArr[1][1]);
 		
 		// // nested loops
 		// for (int i = 0; i < strMdArr.length; i++) {
@@ -45,47 +45,48 @@ public class App {
 		// 		output("Indizes i/j: " + "i:" +  i + " j:"+ j + " " + strMdArr[i][j]);
 		// 	}
 		// }
-		
-		// Deklaration | Chars
+	
+	// Deklaration | Chars
 		char [] letters = {'d','c','a','A','b'};
+
 	
-	// 	output("");
-	// 	output("---- vor Sortierung: ");
-	// 	for (int i = 0; i < letters.length; i++) {
-	// 		output(letters[i]);	
-	// 	}
+		output("");
+		output("---- vor Sortierung: ");
+		for (int i = 0; i < letters.length; i++) {
+			output(letters[i]);	
+		}
 
-	// 	// Sortierfkt. --> sortiertes Array
-	// 	Arrays.sort(letters);  // Statische Klasse | Methode
+		// Sortierfkt. --> sortiertes Array
+		Arrays.sort(letters);  // Statische Klasse | Methode
 
-	// 	output("");
-	// 	output("---- nach Sortierung: ");
-	// 	for (int i = 0; i < letters.length; i++) {
-	// 		output(letters[i]);	
-	// 	}
+		output("");
+		output("---- nach Sortierung: ");
+		for (int i = 0; i < letters.length; i++) {
+			output(letters[i]);	
+		}
 
-	// 	// output("");
-	// 	// output("---- Suche: erfolgreich ----");
-	// 	// ... danach Suche (1)
-	// 	int searchIndex = Arrays.binarySearch(letters,'a');
-	// 	output("");
-	// 	output("---- Binäre Suche: ");
-	// 	output("searchIndex: " + searchIndex);
+		output("");
+		output("---- Suche: erfolgreich ----");
+		// ... danach Suche (1)
+		int searchIndex = Arrays.binarySearch(letters,'a');
+		output("");
+		output("---- Binäre Suche: ");
+		output("searchIndex: " + searchIndex);
 	
-	// 	// output("---- Suche: erfolglos ----");
-	// 	// ... danach Suche (2)
-	// 	searchIndex = Arrays.binarySearch(letters,'e');
-	// 	output("searchIndex: " + searchIndex);  // -(length+1)
-	// 	// .... isInArray()
+		// output("---- Suche: erfolglos ----");
+		// ... danach Suche (2)
+		searchIndex = Arrays.binarySearch(letters,'e');
+		output("searchIndex: " + searchIndex);  // -(length+1)
+		// .... isInArray()
 		
-	// 	output("---- fill() ----");
-	// 	//.. Array füllen
-	// 	Arrays.fill(letters, '0');
-	// 	for (int i = 0; i < letters.length; i++) {
-	// 		output((letters[i]));
-	// 	}
+		output("---- fill() ----");
+		//.. Array füllen
+		Arrays.fill(letters, '0');
+		for (int i = 0; i < letters.length; i++) {
+			output((letters[i]));
+		}
 
-    // }
+    }
 
     private static void output(String outStr) {
         System.out.println(outStr);
@@ -96,5 +97,5 @@ public class App {
 		System.out.print(outChar);
     }
 
-
+	
 }
