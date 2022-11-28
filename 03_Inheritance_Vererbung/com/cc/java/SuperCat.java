@@ -3,7 +3,7 @@ package com.cc.java;
 public class SuperCat {
     private String name;
     private String furColor;
-    public int age;
+    protected int age;
     public SuperCat(String name, String furColor, int age) {
         this.name = name;
         this.furColor = furColor;
@@ -22,6 +22,7 @@ public class SuperCat {
     public String getAge() {
         return String.valueOf(age);
     }
+
     
 
 
