@@ -1,0 +1,86 @@
+<mxfile host="65bd71144e">
+    <diagram id="DB6zgzMOIKiiLIrtM7DM" name="Parent-Child">
+        <mxGraphModel dx="759" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Child&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="190" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Parent&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(String): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="240" y="170" as="sourcePoint"/>
+                        <mxPoint x="400" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="GrandParent - Parent - Child" id="fleQnof_Pompz16oZ11e">
+        <mxGraphModel dx="1084" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-0"/>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-1" parent="klAYD1fTbYuFtzodIqoM-0"/>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Child&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="klAYD1fTbYuFtzodIqoM-1" vertex="1">
+                    <mxGeometry x="120" y="340" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Parent&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(String): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="klAYD1fTbYuFtzodIqoM-1" vertex="1">
+                    <mxGeometry x="120" y="180" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="klAYD1fTbYuFtzodIqoM-1" source="klAYD1fTbYuFtzodIqoM-2" target="klAYD1fTbYuFtzodIqoM-3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="106" y="170" as="sourcePoint"/>
+                        <mxPoint x="266" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="klAYD1fTbYuFtzodIqoM-1" source="klAYD1fTbYuFtzodIqoM-3" target="klAYD1fTbYuFtzodIqoM-10" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="-194" y="300" as="sourcePoint"/>
+                        <mxPoint x="-24" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-7" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Serielle Vererbung &lt;/b&gt;in JAVA OK!&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="klAYD1fTbYuFtzodIqoM-1" vertex="1">
+                    <mxGeometry x="350" y="220" width="270" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="klAYD1fTbYuFtzodIqoM-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;GrandParent&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="klAYD1fTbYuFtzodIqoM-1" vertex="1">
+                    <mxGeometry x="120" y="20" width="160" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="Parent-Child 2" id="0_d0l2WKa-yPQsSuf3Dw">
+        <mxGraphModel dx="759" dy="357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-0"/>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-1" parent="oFUC5rsCZ3n012pOQJ67-0"/>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Child&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="oFUC5rsCZ3n012pOQJ67-1" vertex="1">
+                    <mxGeometry x="240" y="190" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Parent 1&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(String): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="oFUC5rsCZ3n012pOQJ67-1" vertex="1">
+                    <mxGeometry x="140" y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="oFUC5rsCZ3n012pOQJ67-1" source="oFUC5rsCZ3n012pOQJ67-2" target="oFUC5rsCZ3n012pOQJ67-3" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="240" y="170" as="sourcePoint"/>
+                        <mxPoint x="400" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Parent 2&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ sayHello(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="oFUC5rsCZ3n012pOQJ67-1" vertex="1">
+                    <mxGeometry x="350" y="30" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="oFUC5rsCZ3n012pOQJ67-1" source="oFUC5rsCZ3n012pOQJ67-2" target="oFUC5rsCZ3n012pOQJ67-5" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="330" y="200" as="sourcePoint"/>
+                        <mxPoint x="230" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oFUC5rsCZ3n012pOQJ67-7" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Mehrfachvererbung &lt;/b&gt;in JAVA NICHT möglich!&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="oFUC5rsCZ3n012pOQJ67-1" vertex="1">
+                    <mxGeometry x="185" y="310" width="270" height="10" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
