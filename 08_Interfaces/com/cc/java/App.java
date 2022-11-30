@@ -23,9 +23,11 @@ public class App {
         output(worker.fly());
         output(queen.fly());
         output(drone.fly());
+
+        output("-----------------");
+
         output(bird.fly());
-
-
+        output("does this bird have feathers?: " + String.valueOf(bird.hasFeathers()));
 
 
     }
