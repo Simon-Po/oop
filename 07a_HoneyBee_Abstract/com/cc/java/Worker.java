@@ -7,6 +7,6 @@ public class Worker extends HoneyBee{
     }
 
     public String fly() {
-        return "i can fly";
+        return "I believe, I can fly at 6mph!";
     }
 }

@@ -9,4 +9,7 @@ public class Drone extends HoneyBee{
     public String fly() {
         return "i can fly";
     }
+    public String sayHello() {
+        return "sayHello";
+    }
 }

@@ -7,11 +7,12 @@ public class App {
     
         HoneyBee worker = new Worker();
         HoneyBee queen = new Queen(); 
-        HoneyBee drone = new Drone(); 
+        Drone drone = new Drone(); 
 
         output(worker.doYourJob());
         output(queen.doYourJob());
         output(drone.doYourJob());
+        output(drone.sayHello());
 
         // Das sollte eigentlich nicht gehen!
         
