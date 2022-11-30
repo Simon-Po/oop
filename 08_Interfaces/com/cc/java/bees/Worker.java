@@ -1,4 +1,4 @@
-package com.cc.java;
+package com.cc.java.bees;
 
 public class Worker extends HoneyBee{
    

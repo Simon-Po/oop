@@ -1,5 +1,6 @@
-package com.cc.java;
+package com.cc.java.birds;
 
+import com.cc.java.bees.HoneyBee;
 
 public class Bird extends HoneyBee{
 
