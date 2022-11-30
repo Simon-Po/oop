@@ -1,10 +1,8 @@
 
 package com.cc.java;
 
-import com.cc.java.bees.Drone;
-import com.cc.java.bees.Queen;
-import com.cc.java.bees.Worker;
-import com.cc.java.birds.Bird;
+import com.cc.java.bees.*;
+import com.cc.java.birds.*;
 
 public class App {
     
@@ -18,7 +16,7 @@ public class App {
         output(worker.doYourJob());
         output(queen.doYourJob());
         output(drone.doYourJob());
-        output(bird.doYourJob());
+       
 
         output("-----------------");
 
